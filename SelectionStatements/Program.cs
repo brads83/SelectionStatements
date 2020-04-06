@@ -18,9 +18,9 @@ namespace SelectionStatements
                 Console.WriteLine("Too High, try again");
                 Console.ReadLine();
             }
-            else (userInput < favNumber)
-                { 
-                       
+            else (userInput == favNumber)
+                {
+                Console.WriteLine("Bingo, you got it!");     
                 }
             
             
